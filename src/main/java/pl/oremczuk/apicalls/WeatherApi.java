@@ -11,7 +11,7 @@ public class WeatherApi {
     HttpRequest request = HttpRequest.newBuilder()
             .uri(URI.create("https://weatherapi-com.p.rapidapi.com/forecast.json?q=Lublin&days=1"))
             .header("X-RapidAPI-Host", "weatherapi-com.p.rapidapi.com")
-            .header("X-RapidAPI-Key", "dc1635070fmsh3d333e12439d6f3p1a02e6jsne30b1c8bde83")
+            .header("X-RapidAPI-Key", "SIGN_UP_FOR_KEY")
             .method("GET", HttpRequest.BodyPublishers.noBody())
             .build();
 

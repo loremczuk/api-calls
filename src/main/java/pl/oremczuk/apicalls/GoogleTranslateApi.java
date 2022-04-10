@@ -13,7 +13,7 @@ public class GoogleTranslateApi {
             .header("content-type", "application/x-www-form-urlencoded")
             .header("Accept-Encoding", "application/gzip")
             .header("X-RapidAPI-Host", "google-translate1.p.rapidapi.com")
-            .header("X-RapidAPI-Key", "dc1635070fmsh3d333e12439d6f3p1a02e6jsne30b1c8bde83")
+            .header("X-RapidAPI-Key", "SIGN_UP_FOR_KEY")
             .method("POST", HttpRequest.BodyPublishers.ofString("source=en&target=pl&q=Learning%20in%20progress"))
             .build();
 

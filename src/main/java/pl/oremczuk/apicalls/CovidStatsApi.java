@@ -13,7 +13,7 @@ public class CovidStatsApi {
     HttpRequest request = HttpRequest.newBuilder()
             .uri(URI.create("https://covid-19-statistics.p.rapidapi.com/reports/total?date=2020-04-07"))
             .header("X-RapidAPI-Host", "covid-19-statistics.p.rapidapi.com")
-            .header("X-RapidAPI-Key", "dc1635070fmsh3d333e12439d6f3p1a02e6jsne30b1c8bde83")
+            .header("X-RapidAPI-Key", "SIGN_UP_FOR_KEY")
             .method("GET", HttpRequest.BodyPublishers.noBody())
             .build();
 
